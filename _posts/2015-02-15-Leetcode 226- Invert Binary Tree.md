@@ -1,7 +1,11 @@
-﻿#Leetcode 226: Invert Binary Tree
-索引：
-
-[TOC]
+---
+layout: post_layout
+title: Leetcode 226: Invert Binary Tree
+time: 2015年02月15日
+location: 长春
+pulished: true
+excerpt_separator: "##"
+---
 
 ##反转二叉树
 Invert a binary tree.
