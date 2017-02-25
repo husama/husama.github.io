@@ -2,4 +2,3 @@
 
 > Coding and thinking!
 
-![Blog](/assets/img/blog.png)
