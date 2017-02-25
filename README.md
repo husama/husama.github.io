@@ -1,5 +1,5 @@
-# Kejin
+# 胡湘铭的博客
 
-> 自己选的路，跪着也要走下去
+> Coding and thinking!
 
 ![Blog](/assets/img/blog.png)
