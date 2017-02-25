@@ -1,7 +1,7 @@
 ---
 layout: post_layout
-title: Leetcode 226: Invert Binary Tree
-time: 2015年02月15日
+title: ﻿ Leetcode 226: Invert Binary Tree
+time: 2015年2月15日
 location: 长春
 pulished: true
 excerpt_separator: "##"
