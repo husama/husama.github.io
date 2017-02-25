@@ -19,7 +19,7 @@ RESTful API是目前比较成熟的一套互联网应用程序的API设计理论
 ## 简单的一个例子
 这里我用的是python3.4和Django1.8.
 ### models.py
-```
+```python
 from django.db import models
 from datetime import datetime
 class Article(models.Model):
@@ -33,7 +33,7 @@ class Article(models.Model):
 ```
 
 ### views.py
-```
+```python
 from django.http import HttpResponse
 import json  
 from article.models import Article
