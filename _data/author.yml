@@ -5,7 +5,7 @@ address: 湖南 岳阳
 email: husama@qq.com
 github: husama
 gavatar: /assets/img/avatar.JPG
-项目经历:
+workHistory:
 - work3:
   company: 基于知识图谱的医疗知识推荐系统
   location: 吉林大学
@@ -57,4 +57,3 @@ programmingSkills:
 - SQL:
   name: SQL
   percentage: 60%
-
