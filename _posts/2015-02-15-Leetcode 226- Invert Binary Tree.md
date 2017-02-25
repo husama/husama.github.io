@@ -1,11 +1,12 @@
 ---
 layout: post_layout
-title: ﻿ Leetcode 226: Invert Binary Tree
+title: Leetcode反转二叉树
 time: 2015年2月15日
 location: 长春
 pulished: true
 excerpt_separator: "##"
 ---
+
 
 ## 反转二叉树
 Invert a binary tree.
