@@ -7,18 +7,18 @@ pulished: true
 excerpt_separator: "##"
 ---
 
-##简要
+## 简要
 
 
 RESTful API是目前比较成熟的一套互联网应用程序的API设计理论.具体设计可以看一下 [RESTful API 设计指南 by 阮一峰](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 
-##Django的应用
+## Django的应用
 本文讨论RESTful API的一个小应用,当Django作为类似Android,IPhone等APP的后台框架时,往往Response的不是一个Html,而是一些序列化的数据,比如**Json**.
 所以我们需要把models里的数据提取出来转化为json,虽然有基于Django的[Django REST framework](http://www.django-rest-framework.org/)可以直接用,但是自己写其实也挺简单的:-)
 
-##简单的一个例子
+## 简单的一个例子
 这里我用的是python3.4和Django1.8.
-###models.py
+### models.py
 ```
 from django.db import models
 from datetime import datetime
@@ -32,7 +32,7 @@ class Article(models.Model):
                 return {u'标题':self.title,u'内容':self.content,u'发表时间':self.time.strftime('%Y-%m-%d %H:%M:%S')}
 ```
 
-###views.py
+### views.py
 ```
 from django.http import HttpResponse
 import json  
